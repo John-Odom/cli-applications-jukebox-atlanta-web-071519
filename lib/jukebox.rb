@@ -50,4 +50,5 @@ def run (songs)
     elsif command.to_s == "exit"
       exit_jukebox
     end
+  i+=1
 end
