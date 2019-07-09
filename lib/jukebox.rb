@@ -37,15 +37,17 @@ end
 
 def run (songs)
   help
-  puts "Please enter a command:"
-  command = gets.chomp
-  if command.to_s == "help"
-    help
-  elsif command.to_s == "list"
-    list(songs)
-  elsif command.to_s == "play"
-    play (songs)
-  elsif command.to_s == "exit"
-    exit_jukebox
-  end
+  i=0
+  while i<10
+    puts "Please enter a command:"
+    command = gets.chomp
+    if command.to_s == "help"
+      help
+    elsif command.to_s == "list"
+      list(songs)
+    elsif command.to_s == "play"
+      play (songs)
+    elsif command.to_s == "exit"
+      exit_jukebox
+    end
 end
