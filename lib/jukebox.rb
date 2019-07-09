@@ -51,4 +51,5 @@ def run (songs)
       exit_jukebox
     end
   i+=1
+  end
 end
